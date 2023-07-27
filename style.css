@@ -1,0 +1,25 @@
+html,body{
+    background-color: aliceblue;
+    display: flex;
+}
+
+
+
+.box{
+    height:300px;
+    width: 300px;
+    position:relative;
+    top: 200px;
+    left:400px;
+    background-color: rgb(172, 102, 10);
+    border: 1px solid red;
+    border-radius: 20px;
+    transition: transform 0.6 ease-in-out;
+    box-shadow:  89px 89px 114px -23px rgba(0,0,0,0.75); 
+    
+
+}
+.box:hover{
+    background-color:rgb(225, 131, 131);
+    transform: scale(1,1);
+} 
